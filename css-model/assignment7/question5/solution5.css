@@ -1,0 +1,26 @@
+/* Attribute selector: selects text inputs. */
+input[type="text"] { border: 3px solid #2563eb; }
+/* Attribute selector: selects links beginning with https. */
+a[href^="https"] { color: #dc2626; font-weight: bold; }
+/* Pseudo-class: hover changes an element on mouse-over. */
+li:hover { background: #dbeafe; }
+/* Pseudo-class: focus styles the active input. */
+input:focus { outline: 3px solid #f59e0b; }
+/* Pseudo-class: nth-child selects a specific list position. */
+li:nth-child(2) { font-weight: bold; }
+/* Pseudo-element: adds content before every list item. */
+li::before { content: "✓ "; }
+/* Pseudo-element: adds content after the heading. */
+h1::after { content: " ★"; }
+/* Child combinator > selects direct children. */
+.group > span { color: #16a34a; }
+/* Adjacent sibling + selects the next sibling. */
+.group > span + div { border-left: 4px solid #7c3aed; padding-left: 10px; }
+/* General sibling ~ selects later siblings. */
+.group > span ~ span { text-decoration: underline; }
+/* Descendant combinator selects any nested span. */
+.group div span { font-style: italic; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; }
+main { max-width: 800px; margin: auto; padding: 50px 20px; }
+li { padding: 10px; margin: 5px; }
+input { display: block; margin: 12px 0; padding: 12px; width: 100%; max-width: 350px; }

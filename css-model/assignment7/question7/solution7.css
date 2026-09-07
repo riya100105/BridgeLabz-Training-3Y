@@ -1,0 +1,13 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f8fafc; color: #1f2937; }
+main { max-width: 850px; margin: auto; padding: 60px 25px; }
+article { background: white; padding: 40px; border-radius: 14px; }
+h1 { font-size: 2.4em; letter-spacing: 2px; text-align: center; }
+p { font-size: 1.08em; line-height: 1.8; letter-spacing: 0.4px; text-align: justify; }
+.intro { font-weight: 600; }
+.serif { font-family: Georgia, serif; font-size: 1.25em; }
+.mono { font-family: "Courier New", monospace; font-size: 1em; }
+mark { background: #fde68a; color: #92400e; padding: 2px 5px; }
+strong { color: #1d4ed8; }
+em { color: #9333ea; }
+article p:first-of-type::first-letter { font-size: 2.5em; font-weight: bold; float: left; line-height: 0.9; margin-right: 6px; }
+article p:nth-of-type(2)::first-line { font-weight: bold; }

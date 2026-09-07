@@ -1,0 +1,14 @@
+/* Basic page styling */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f7fb; color: #222; }
+header, footer { text-align: center; padding: 20px; background: #1f2937; color: white; }
+main { min-height: 70vh; display: flex; align-items: center; justify-content: center; }
+.box-container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.demo { width: 170px; min-height: 140px; display: flex; flex-direction: column; justify-content: center; align-items: center; background: white; transition: border-color 0.4s ease; }
+.demo:hover { border-color: #e11d48; }
+.solid { border: 5px solid #2563eb; padding: 20px; }
+.dashed { border: 5px dashed #16a34a; padding: 30px; }
+.double { border: 8px double #9333ea; padding: 15px; }
+.groove { border: 8px groove #f59e0b; padding: 25px; }
+.rounded { border: 5px solid #0891b2; border-radius: 25px; padding: 20px; }
+small { margin-top: 8px; }

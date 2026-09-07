@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; }
+main { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.showcase { display: flex; gap: 45px; justify-content: center; flex-wrap: wrap; }
+.item { text-align: center; }
+.item div { width: 140px; height: 140px; display: flex; justify-content: center; align-items: center; background: #bfdbfe; border: 3px solid #1d4ed8; transition: all 0.4s ease; font-weight: bold; }
+.rotate div:hover { transform: rotate(15deg); }
+.scale div:hover { transform: scale(1.2); }
+.translate div:hover { transform: translateY(-25px); }
+.skew div:hover { transform: skew(12deg, 5deg); }
