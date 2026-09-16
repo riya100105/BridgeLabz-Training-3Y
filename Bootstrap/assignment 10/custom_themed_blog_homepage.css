@@ -1,0 +1,1 @@
+:root{--bs-primary:#7c3aed;--bs-primary-rgb:124,58,237;--bs-font-sans-serif:"Inter",sans-serif}body{font-family:var(--bs-font-sans-serif);background:#faf8ff}.theme-link{color:var(--bs-primary)}.card{border:0;transition:transform .25s}.card:hover{transform:translateY(-5px)}
