@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Table Filter - Assignment 7</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/q6.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html">← Back to all questions</a>
+    <h1>Real-Time Table Filter</h1>
+    <p>Search by student name, branch or CGPA. Search is case-insensitive.</p>
+  </header>
+  <main class="demo">
+
+  <label for="studentSearch">Search students</label>
+  <input id="studentSearch" type="text" placeholder="Type a name, branch or CGPA...">
+  <table class="student-table">
+    <thead><tr><th>Name</th><th>Branch</th><th>CGPA</th></tr></thead>
+    <tbody id="studentRows">
+      <tr><td>Aarav</td><td>CSE</td><td>8.7</td></tr>
+      <tr><td>Riya</td><td>CSE</td><td>9.1</td></tr>
+      <tr><td>Meera</td><td>ECE</td><td>8.4</td></tr>
+      <tr><td>Kabir</td><td>IT</td><td>7.9</td></tr>
+      <tr><td>Ananya</td><td>Mechanical</td><td>8.8</td></tr>
+      <tr><td>Vivaan</td><td>ECE</td><td>7.6</td></tr>
+    </tbody>
+  </table>
+  <p id="noResults" class="no-results">No results found</p>
+
+  </main>
+</body>
+</html>

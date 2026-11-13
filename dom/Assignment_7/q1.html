@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Product List Manager - Assignment 7</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/q1.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html">← Back to all questions</a>
+    <h1>Dynamic Product List Manager</h1>
+    <p>Add products, edit their names inline, or delete them.</p>
+  </header>
+  <main class="demo">
+
+  <h2>Product List</h2>
+  <form id="productForm" class="actions">
+    <input id="productInput" type="text" placeholder="Enter a product name" aria-label="Product name" required>
+    <button type="submit">Add Product</button>
+  </form>
+  <ul id="productList" class="product-list">
+    <li>Notebook <button class="small edit-btn" type="button">Edit</button><button class="small danger delete-btn" type="button">Delete</button></li>
+    <li>Water Bottle <button class="small edit-btn" type="button">Edit</button><button class="small danger delete-btn" type="button">Delete</button></li>
+  </ul>
+  <p class="helper">Tip: while editing, click anywhere outside the edited item to save.</p>
+
+  </main>
+</body>
+</html>

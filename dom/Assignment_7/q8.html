@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Dropdown - Assignment 7</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/q8.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html">← Back to all questions</a>
+    <h1>Custom Dropdown</h1>
+    <p>This dropdown is made with buttons and JavaScript, without a select tag.</p>
+  </header>
+  <main class="demo">
+
+  <div class="dropdown" id="customDropdown">
+    <button id="dropdownToggle" type="button" aria-expanded="false">Choose a course ▾</button>
+    <div class="dropdown-options" id="dropdownOptions">
+      <button type="button" data-value="Java">Java</button>
+      <button type="button" data-value="Python">Python</button>
+      <button type="button" data-value="Web Development">Web Development</button>
+      <button type="button" data-value="Data Analytics">Data Analytics</button>
+    </div>
+  </div>
+  <p id="selectedCourse" class="helper">No course selected.</p>
+
+  </main>
+</body>
+</html>

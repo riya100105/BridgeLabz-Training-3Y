@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Submit Blocker & Live Errors - Assignment 7</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/q9.js" defer></script>
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html">← Back to all questions</a>
+    <h1>Form Submit Blocker & Live Errors</h1>
+    <p>Errors appear on submit and disappear automatically when each field becomes valid.</p>
+  </header>
+  <main class="demo">
+
+  <form id="signupForm" novalidate>
+    <div class="field">
+      <label for="signupName">Name</label>
+      <input id="signupName" type="text" placeholder="Enter your name">
+      <p class="error" id="signupNameError"></p>
+    </div>
+    <div class="field">
+      <label for="signupEmail">Email</label>
+      <input id="signupEmail" type="text" placeholder="Enter your email">
+      <p class="error" id="signupEmailError"></p>
+    </div>
+    <div class="field">
+      <label for="signupPassword">Password</label>
+      <input id="signupPassword" type="password" placeholder="At least 6 characters">
+      <p class="error" id="signupPasswordError"></p>
+    </div>
+    <button type="submit">Submit Form</button>
+  </form>
+  <p id="submitMessage" class="success" role="status"></p>
+
+  </main>
+</body>
+</html>
